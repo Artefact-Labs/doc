@@ -3,7 +3,7 @@ home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: The official Documentation of Artefact Creator (IDE)
 actionText: Quick Start →
-actionLink: /guide/
+actionLink: /introduction/
 features:
 - title: Feature 1 Title
   details: Feature 1 Description
