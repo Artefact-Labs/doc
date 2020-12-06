@@ -47,6 +47,7 @@ let tree = [
             {
                 title: 'Basic',
                 sidebarDepth: 2,
+                path: '/basic/',
                 children: [
                     '/ui-components/basic/canvas/',
                     '/ui-components/basic/icon/',
