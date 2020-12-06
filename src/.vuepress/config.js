@@ -1,4 +1,4 @@
-const sidebarTree = require("./sidebarTree")
+const sidebarTree = require("./js/sidebarTree")
 const { description } = require('../../package')
 
 module.exports = {
@@ -45,5 +45,9 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+  
+  markdown: {
+    lineNumbers: true
+  }
 }

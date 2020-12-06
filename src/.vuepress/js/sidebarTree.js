@@ -2,6 +2,7 @@ let tree = [
     {
         title: 'Introduction',
         path: '/introduction/',
+        sidebarDepth: 2,
     },
     {
         title: 'Getting started',
@@ -21,6 +22,7 @@ let tree = [
     },
     {
         title: 'Script (Js)',
+        path: '/script/',
         sidebarDepth: 2,
         children: [
             '/script/data/',
@@ -155,11 +157,22 @@ let tree = [
     },
     {
         title: 'API',
-        sidebarDepth: 2
+        sidebarDepth: 2,
+        children: [
+            'api/android/',
+            'api/electron/',
+            'api/vue/',
+            'api/vuerouter/',
+            'api/vuetify/',
+            'api/vuex/',
+        ]
     },
     {
         title: 'Directives',
-        sidebarDepth: 2
+        sidebarDepth: 2,
+        children: [
+            'directives/ripple/',
+        ]
     },
 ]
 
