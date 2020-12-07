@@ -1,8 +1,8 @@
 image: node:latest
 
 stages:
-  - build
-  - deploy
+  - install
+  - build_deploy
 
 cache:
   paths:
@@ -12,17 +12,18 @@ install_dependencies:
   stage: build
   script:
     - npm install
-    - npm run build
   artifacts:
     paths:
       - node_modules/
 
-deployment:
-  stage: deploy
+build_deploy:
+  stage: build_deploy
   script: 
     - apt-get update -qy
     - apt-get install -y lftp
-    - lftp -u $FTP_USER,$FTP_PASS $FTP_HOST -e "set ftp:ssl-allow no ; mirror -e -R -p ./src/.vuepress/dist artefact-labs/docs ; quit"
+    - npm run build
+    - cd src/.vuepress/dist
+    - lftp -u $FTP_USER,$FTP_PASS $FTP_HOST -e "set ftp:ssl-allow no ; mirror -e -R -p ./ artefact-labs/docs ; quit"
     - echo "deployment complete"
   # specify environment this job is using
   environment:
