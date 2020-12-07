@@ -19,7 +19,7 @@ install_dependencies:
 deployment:
   stage: deploy
   script: 
-    - npm run docs:build
+    - npm run build
     - lftp -u $FTP_USER,$FTP_PASS $FTP_HOST -e "set ftp:ssl-allow no ; mirror -e -R -p ./dist artefact-labs/docs ; quit"
     - echo "deployment complete"
   # specify environment this job is using
