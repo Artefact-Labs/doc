@@ -2,7 +2,7 @@ image: node:latest
 
 stages:
   - install
-  - build_deploy
+  - buildDeploy
 
 cache:
   paths:
@@ -16,8 +16,8 @@ install_dependencies:
     paths:
       - node_modules/
 
-build_deploy:
-  stage: build_deploy
+buildDeploy:
+  stage: buildDeploy
   script: 
     - apt-get update -qy
     - apt-get install -y lftp
