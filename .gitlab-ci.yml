@@ -23,7 +23,8 @@ buildDeploy:
     - apt-get install -y lftp
     - npm run build
     - cd src/.vuepress/dist
-    - lftp -u $FTP_USER,$FTP_PASS $FTP_HOST -e "set ftp:ssl-allow no ; mirror -e -R -p ./ artefact-labs/docs ; quit"
+    - lftp -e "set ssl:verify-certificate no; open $FTP_HOST; user $FTP_USER $FTP_PASS; mirror -e -R -p ./ artefact-labs/docs; bye"
+    #- lftp -u $FTP_USER,$FTP_PASS $FTP_HOST -e "set ftp:ssl-allow no ; mirror -e -R -p ./ artefact-labs/docs ; quit"
     - echo "deployment complete"
   # specify environment this job is using
   environment:
