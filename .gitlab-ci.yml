@@ -1,14 +1,25 @@
-image: ubuntu:18.04
+image: node:latest
 
-before_script:
-  - apt-get update -qy
-  - apt-get install -y lftp
-  - node -v
-  - npm install
-  - npm run docs:build
+stages:
+  - build
+  - deploy
 
-deploy:
+cache:
+  paths:
+    - node_modules/
+
+install_dependencies:
+  stage: build
   script:
+    - npm install
+  artifacts:
+    paths:
+      - node_modules/
+
+deployment:
+  stage: deploy
+  script: 
+    - npm run docs:build
     - lftp -u $FTP_USER,$FTP_PASS $FTP_HOST -e "set ftp:ssl-allow no ; mirror -e -R -p ./dist artefact-labs/docs ; quit"
     - echo "deployment complete"
   # specify environment this job is using
