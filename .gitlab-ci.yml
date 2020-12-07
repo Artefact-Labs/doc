@@ -12,6 +12,7 @@ install_dependencies:
   stage: build
   script:
     - npm install
+    - npm run build
   artifacts:
     paths:
       - node_modules/
@@ -19,7 +20,8 @@ install_dependencies:
 deployment:
   stage: deploy
   script: 
-    - npm run build
+    - apt-get update -qy
+    - apt-get install -y lftp
     - lftp -u $FTP_USER,$FTP_PASS $FTP_HOST -e "set ftp:ssl-allow no ; mirror -e -R -p ./dist artefact-labs/docs ; quit"
     - echo "deployment complete"
   # specify environment this job is using
