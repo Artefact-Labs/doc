@@ -25,10 +25,11 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Start', link: '/introduction/' },
-      { text: 'Webpages', items: [
-        { text: 'Webpage', link: 'https://artefact-labs.com/' },
-        { text: 'Community', link: 'https://community.artefact-labs.com/' }
-      ] 
+      {
+        text: 'Webpages', items: [
+          { text: 'Webpage', link: 'https://artefact-labs.com/' },
+          { text: 'Community', link: 'https://community.artefact-labs.com/' }
+        ]
       },
     ],
     sidebar: sidebarTree.tree,
@@ -47,7 +48,37 @@ module.exports = {
         updatePopup: true
       }
     ],
-  ],  
+    'reading-progress',
+    [
+      'social-share',
+      {
+        networks: ['twitter', 'facebook', 'reddit', 'telegram', 'email',
+          'whatsapp'],
+        email: 'contact@artefact-labs.com',
+        autoQuote: true,
+        isPlain: true,
+      },
+    ],
+    [
+      'gitalk-maker',
+      {
+        gitalkConfig: {
+          clientID: 'd19ecc5c47ed2e87af11',
+          clientSecret: 'a85fdc27a8ac3039c19ceb09950ff0bcceb9e41d',
+          repo: 'doc',
+          owner: 'Artefact-Labs',
+          admin: ['Artefact-Team', 'dannickstark', 'Frank-Mbouga', 'maximefloriani'],
+          distractionFreeMode: false, // Facebook-like distraction free mode
+          flipMoveOptions: {
+            staggerDelayBy: 150,
+            appearAnimation: 'accordionVertical',
+            enterAnimation: 'accordionVertical',
+            leaveAnimation: 'accordionVertical',
+          }
+        },
+      },
+    ],
+  ],
   markdown: {
     lineNumbers: true
   }

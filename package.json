@@ -17,6 +17,11 @@
     "@vuepress/plugin-back-to-top": "^1.7.1",
     "@vuepress/plugin-medium-zoom": "^1.7.1",
     "@vuepress/plugin-pwa": "^1.7.1",
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-social-share": "^1.0.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-gitalk-maker": "^0.1.0",
+    "vuepress-plugin-reading-progress": "^1.0.10"
   }
 }
