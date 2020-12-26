@@ -12,7 +12,6 @@ ComboBox is a combined button and popup list. It provides a means of presenting 
 ## Example usage
 The following example shows the simplest usage of the ComboBox type.
 
-![alt text](./ComboBox.gif)
 
 <code-group>
 <code-block title=".at" active>
