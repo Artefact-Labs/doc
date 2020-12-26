@@ -16,9 +16,10 @@ Currently Artefact-Creator is only disponible on Windows
 3. Download the executor
 
 ## Install
-Just follow the step expleined in the installation wizars.
+Just follow the steps explained in the installation's wizards.
 
 ## Configuration
+When the installtion will be done, open the tool
 Lorsque l' installation sera terminée, ouvrez le logiciel.
 
 Lord de la première ouverture une fenetre de configuration s' ouvrira. Elle vous permet de realiser les configurations de base de l' IDE.
