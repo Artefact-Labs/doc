@@ -166,6 +166,7 @@ let tree = [
             'api/vuerouter/',
             'api/vuetify/',
             'api/vuex/',
+            'api/vue-mq/',
         ]
     },
     {

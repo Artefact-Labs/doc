@@ -17,7 +17,7 @@
     "@vuepress/plugin-back-to-top": "^1.7.1",
     "@vuepress/plugin-medium-zoom": "^1.7.1",
     "@vuepress/plugin-pwa": "^1.7.1",
-    "vuepress": "^1.5.3",
+    "vuepress": "^1.7.1",
     "vuepress-plugin-social-share": "^1.0.0"
   },
   "dependencies": {
