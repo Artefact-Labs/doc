@@ -19,13 +19,12 @@ Currently Artefact-Creator is only disponible on Windows
 Just follow the steps explained in the installation's wizards.
 
 ## Configuration
-When the installtion will be done, open the tool
-Lorsque l' installation sera terminée, ouvrez le logiciel.
+When the installtion is complete, open the software.
 
-Lord de la première ouverture une fenetre de configuration s' ouvrira. Elle vous permet de realiser les configurations de base de l' IDE.
+The first time you open the software, a configuration window will open. It allows you to make the basic configurations of the IDE.
 
 ![alt text](./1.gif "Setting 1")
 1. Choose the language
-2. Choose the software you don' t have. They will be installed (offline).
-3. Choose a theme for your IDE. Artefact-Creator offer you 3 different theme.
+2. Choose the software you don't have. They will be installed (offline).
+3. Choose a theme for your IDE. Artefact-Creator offers you 3 different themes.
 4. Configure a user account (username, password). you will use it to open the IDE.
