@@ -1,7 +1,8 @@
 ---
 tags:
-  - Artefact
-  - design
+  - Multimedia
+  - ui
+  - element
 ---
 
 # Video

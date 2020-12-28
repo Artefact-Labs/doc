@@ -1,6 +1,6 @@
 ---
 tags:
-  - basic
+  - input-control
   - ui
   - element
 ---
