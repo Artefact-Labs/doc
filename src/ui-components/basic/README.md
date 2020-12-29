@@ -5,5 +5,5 @@ tags:
   - ui
 ---
 
-# Basis
+# Basic
 The basic elements are the most primary ones such as rectangles, texts and images.
