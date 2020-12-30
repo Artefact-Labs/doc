@@ -10,7 +10,7 @@ tags:
 The NetworkAnimatedImage have the same property with the AnimatedImage object, but it allows to use source from Internet.
 
 ## Example usage
-See the example of the AnimatedImage object!
+See the example of the [AnimatedImage](../../special/animatedimage/README.md) object!
 
 <code-group>
 <code-block title=".at" active>
