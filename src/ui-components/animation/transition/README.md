@@ -44,7 +44,6 @@ Item{
       y: 65,
       child: [
         Card{
-         
           id: "cardtransitionexample31",
           width: 100,
           height: 100,
