@@ -57,7 +57,6 @@ let tree = [
                     '/ui-components/basic/rectangle/',
                     '/ui-components/basic/scrollarea/',
                     '/ui-components/basic/text/',
-                    '/ui-components/basic/textedit/',
                 ]
             },
             {
@@ -85,6 +84,7 @@ let tree = [
                     '/ui-components/input-control/slider/',
                     '/ui-components/input-control/switch/',
                     '/ui-components/input-control/textarea/',
+                    '/ui-components/input-control/textedit/',
                     '/ui-components/input-control/textfield/',
                 ]
             },
@@ -95,10 +95,15 @@ let tree = [
                     '/ui-components/special/animatedimage/',
                     '/ui-components/special/card/',
                     '/ui-components/special/carousel/',
+                    '/ui-components/special/codemirror/',
                     '/ui-components/special/game/',
                     '/ui-components/special/htmlobject/',
                     '/ui-components/special/object/',
+                    '/ui-components/special/pagination/',
                     '/ui-components/special/parallax/',
+                    '/ui-components/special/slot/',
+                    '/ui-components/special/slottemplate/',
+                    '/ui-components/special/svg/',
                 ]
             },
             {

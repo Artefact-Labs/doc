@@ -44,6 +44,14 @@ Image{
 ## source <Badge text="url" type="tip" vertical="middle"/>
 Image can handle any image format supported by At, loaded from any URL scheme supported by At. The URL may be relative to the base URL of the project.
 
+## fillMode <Badge text="enumaration" type="tip" vertical="middle"/>
+Set this property to define what happens when the source image has a different size than the item.
+
+- **stretch** : the image is scaled to fit
+- **preserveAspectFit** : the image is scaled uniformly to fit without cropping
+- **preserveAspectCrop** : the image is scaled uniformly to fill, cropping if necessary
+- **tile** : the image is duplicated horizontally and vertically
+
 ## border <Badge text="int" type="tip" vertical="middle"/>
 The border and borderColor used to draw the border of the image. A border of 1 creates a thin line. For no line, use a width of 0 or a transparent color. Note: The width of the image's border does not affect the geometry of the image. The border is rendered within the image's boundaries.
 

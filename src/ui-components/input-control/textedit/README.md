@@ -46,11 +46,11 @@ TextEdit{
 ## value <Badge text="string" type="tip" vertical="middle"/>
 The text to display.
 
-## horizontalAlign <Badge text="Enum" type="tip" vertical="middle"/>
+## align <Badge text="Enum" type="tip" vertical="middle"/>
 Sets the horizontal alignment of the text within the TextEdit item's width and height. By default, the text alignment follows the natural alignment of the text, for example text that is read from left to right will be aligned to the left.
-
-## verticalAlign <Badge text="Enum" type="tip" vertical="middle"/>
-Sets the vertical alignment of the text within the TextEdit item's width and height. By default, the text alignment follows the natural alignment of the text, for example text that is read from left to right will be aligned to the left.
+- **left** : 
+- **center** : 
+- **right** : 
 
 ## color <Badge text="color" type="tip" vertical="middle"/>
 This property holds the color used to fill the rectangle. The default color is transparent.

@@ -13,7 +13,7 @@ The Scene is where you will put all your elements like personages, 2D box, etc.
 The following example shows the simplest usage of the Scene type.
 
 <code-group>
-<code-block title=".at" active>
+<code-block title=".game.at" active>
 ```scss
 Scene{
   id: "scene1",
@@ -123,11 +123,6 @@ Method avance () {
 Method recule () { 
 	this.imagescene15.x -= 1; 
 }
-```
-</code-block>
-
-<code-block title=".atStyle">
-```scss
 ```
 </code-block>
 </code-group>

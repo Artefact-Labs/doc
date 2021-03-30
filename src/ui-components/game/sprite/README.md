@@ -14,7 +14,7 @@ The main difference between a Sprite and an Image Game Object is that you cannot
 The following example shows the simplest usage of the Sprite type.
 
 <code-group>
-<code-block title=".at" active>
+<code-block title=".game.at" active>
 ```scss
 Sprite{
   id: "spritescene19",
@@ -47,11 +47,6 @@ Sprite{
 
 <code-block title=".atObj">
 ```js
-```
-</code-block>
-
-<code-block title=".atStyle">
-```scss
 ```
 </code-block>
 </code-group>

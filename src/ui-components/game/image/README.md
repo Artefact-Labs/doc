@@ -15,7 +15,7 @@ The following example shows the simplest usage of the Image type.
 ![alt text](./Image.gif)
 
 <code-group>
-<code-block title=".at" active>
+<code-block title=".game.at" active>
 ```scss
 Image{
   id: "ground12",
@@ -30,11 +30,6 @@ Image{
 
 <code-block title=".atObj">
 ```js
-```
-</code-block>
-
-<code-block title=".atStyle">
-```scss
 ```
 </code-block>
 </code-group>

@@ -48,7 +48,4 @@ The source of the icon is specified as a String, which is the code-name of the i
 This property allows to set how big the icon will be.
 
 ## color <Badge text="color" type="tip" vertical="middle"/>
-Sets the vertical alignment of the text within the TextEdit item's width and height. By default, the text alignment follows the natural alignment of the text, for example text that is read from left to right will be aligned to the left.
-
-## color <Badge text="color" type="tip" vertical="middle"/>
 The color set the color of the icon.

@@ -71,6 +71,11 @@ Activate the textOverflow.
 
 ## textOverflow <Badge text="int" type="tip" vertical="middle"/>
 Define the size of the overflow.
+- **clip** : Default value. The text is clipped and not accessible.
+- **ellipsis** : Render an ellipsis ("...") to represent the clipped text
+- **string** : Render the given string to represent the clipped text
+- **initial** : Sets this property to its default value.
+- **inherit** : Inherits this property from its parent element.
 
 ## lineHeight <Badge text="int" type="tip" vertical="middle"/>
 Define the height of a single line.
@@ -80,3 +85,8 @@ Define the space size between two letters.
 
 ## wordSpacing <Badge text="int" type="tip" vertical="middle"/>
 Define the space size between two word.
+
+## whiteSpace <Badge text="enumerate" type="tip" vertical="middle"/>
+This property is used to describe how whitespace is handled within the element.
+- **normal** : The series of blanks are grouped together, the line break characters are managed like the other blanks. The line breaks are made naturally to fill the boxes.
+- **nowrap** : Blanks are grouped as with normal but automatic line breaks are removed.

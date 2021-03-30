@@ -16,9 +16,15 @@ An important note about Tile Image and NPOT textures: Internally, TileImage text
 The following example shows the simplest usage of the TileImage type.
 
 <code-group>
-<code-block title=".at" active>
+<code-block title=".game.at" active>
 ```scss
-Rectangle {
+TileImage{
+  id: "ground12",
+  width: 97,
+  height: 44,
+  x: 78,
+  source: "Resources/04.png",
+  anchors.bottom: 100
 }
 ```
 </code-block>

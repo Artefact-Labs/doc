@@ -17,7 +17,7 @@ The following example shows the simplest usage of the Rectangle type.
 ![alt text](./Rectangle.gif)
 
 <code-group>
-<code-block title=".at" active>
+<code-block title=".game.at" active>
 ```scss
 Rectangle{  
   id: "exampleRectangle",
@@ -32,11 +32,6 @@ Rectangle{
 
 <code-block title=".atObj">
 ```js
-```
-</code-block>
-
-<code-block title=".atStyle">
-```scss
 ```
 </code-block>
 </code-group>

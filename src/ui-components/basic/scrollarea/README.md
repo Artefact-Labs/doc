@@ -74,3 +74,27 @@ Define the color to be set on the background of the scrollbar.
 
 ## barColor <Badge text="string" type="tip" vertical="middle"/>
 Define the color of the background.
+
+## color <Badge text="color" type="tip" vertical="middle"/>
+This property holds the color used to fill the rectangle. The default color is transparent.
+
+## gradiant <Badge text="bool" type="tip" vertical="middle"/>
+This property defines if the rectangle will be fill with the gradient or not.
+
+## firstColor <Badge text="color" type="tip" vertical="middle"/>
+This define the first color of the gradiant.
+
+## secondColor <Badge text="color" type="tip" vertical="middle"/>
+This define the second color of the gradiant.
+
+## gradiantAngle <Badge text="int(deg)" type="tip" vertical="middle"/>
+This define the angle of the gradiant. It is the angle of the line between the first- and secondColor.
+
+## border <Badge text="int" type="tip" vertical="middle"/>
+The border and borderColor used to draw the border of the rectangle. A border of 1 creates a thin line. For no line, use a border of 0 or a transparent color. Note: The border of the rectangle's border does not affect the geometry of the rectangle. The border is rendered within the rectangle's boundaries.
+
+## borderColor <Badge text="color" type="tip" vertical="middle"/>
+The border and borderColor used to draw the border of the rectangle. A border of 1 creates a thin line. For no line, use a border of 0 or a transparent color. Note: The border of the rectangle's border does not affect the geometry of the rectangle. The border is rendered within the rectangle's boundaries.
+
+## radius <Badge text="int" type="tip" vertical="middle"/>
+This property holds the corner radius used to draw a rounded rectangle. If radius is non-zero, the rectangle will be painted as a rounded rectangle, otherwise it will be painted as a normal rectangle. The same radius is used by all 4 corners; there is currently no way to specify different radius for different corners.

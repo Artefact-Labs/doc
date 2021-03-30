@@ -22,7 +22,7 @@ module.exports = {
     docsDir: '',
     editLinkText: 'Help us improve this page!',
     lastUpdated: false,
-    nav: [
+    nav:  [
       { text: 'Home', link: '/' },
       { text: 'Start', link: '/introduction/' },
       {

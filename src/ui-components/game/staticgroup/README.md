@@ -13,7 +13,7 @@ An Arcade Physics Static Group object. All Game Objects created by or added to t
 The following example shows the simplest usage of the StaticGroup type.
 
 <code-group>
-<code-block title=".at" active>
+<code-block title=".game.at" active>
 ```scss
 Rectangle {
 }
@@ -22,11 +22,6 @@ Rectangle {
 
 <code-block title=".atObj">
 ```js
-```
-</code-block>
-
-<code-block title=".atStyle">
-```scss
 ```
 </code-block>
 </code-group>
